@@ -1,0 +1,107 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aquamarine;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container-faq{
+    text-align: center;
+    display: block;
+}
+h1{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.estilizado{
+    font-size: 22px;
+    margin-left: 30px;
+    color:rgb(0, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button{
+    width: 500px;
+    padding: 20px;
+    border-radius: 25px;
+    margin-top: 20px;
+    background-color: rgb(0, 81, 255);
+    color: aliceblue;
+    cursor:pointer;
+    font-weight: bold ;
+
+}
+button:hover{
+    background-color: rgb(21, 21, 127);
+}
+#resSelic, #resIpca, #resCdb, #resInvestir #resJurosCompostos{
+    display: none;
+    
+
+}
+.end{
+    text-align: center;
+    color:rgb(0, 0, 0);
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+  .voltar{
+    padding-top: 20px;
+  }  
+
+a{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 200px;
+    font-size: 20px;
+    padding-top: 200px;
+}
+a:hover{
+    color:rgb(20, 20, 20);
+}
+@media(max-width: 600px) {
+    body {
+        width: 100vw;
+        text-align: center;
+    }
+    .container-faq {
+        width: 90%; /* Melhor ajuste para telas pequenas */
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+    }
+    h1 {
+        font-size: 24px; /* Reduzindo o tamanho para melhor adaptação */
+    }
+    .estilizado {
+        font-size: 18px;
+        margin-left: 10px;
+    }
+    button {
+        width: 90%;
+        text-align: center;
+        padding: 15px;
+    }
+    #resSelic, #resIpca, #resCdb, #resInvestir, #resJurosCompostos {
+        display: none;
+        width: 100%; /* Garante que ocupe toda a largura do contêiner */
+        margin-top: 10px; /* Adiciona um espaçamento entre o botão e a resposta */
+        text-align: center;
+    }
+    
+    a {
+        margin-left: 0;
+        display: block;
+        text-align: center;
+        font-size: 18px;
+        padding-top: 20px;
+    }
+
+}

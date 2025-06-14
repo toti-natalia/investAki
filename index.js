@@ -170,5 +170,6 @@ btnSimular.addEventListener('click', simular);
 
 function descerRodape() {
     rodape.style.marginTop = '300px';
+    rodape.style.marginBottom = '100px';
 }
 

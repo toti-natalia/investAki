@@ -115,10 +115,12 @@ button:hover {
 
 .end {
     text-align: center;
-    margin-top: 150px;
+    margin-top: 70px;
     font-size: 20px;
 }
-
+.linksO{
+    margin-top:60px;
+}
 
 
 /* Responsividade */
